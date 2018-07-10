@@ -1,0 +1,7 @@
+<h2> face-test </h2>
+<form action="{% url 'face:test' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="file" name="submit"/>
+    <button type="submit" name="submit">提交</button>
+</form>
