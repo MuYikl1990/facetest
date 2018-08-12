@@ -1,0 +1,7 @@
+<h2> face-test </h2>
+<form action="{% url 'face:test' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="img"/><br/><br/>
+    <button type="submit" name="submit">上传</button><br/><br/>
+    <a href="{% url 'face:show' %}">显示</a>
+</form>
