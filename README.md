@@ -6,4 +6,4 @@ A demo to test faces and count the number
 ### 1. Within Shell run project via `python manage.py runserver` in Root Directory, and show upload page on http://127.0.0.1:8000.
 ### 2. Second, upload a picture and run test via `python test.py` in Root Directory ,then a message will flash to show the number of faces.
 ### 3. Finally, click the button named 'show' on http://127.0.0.1:8000, a new picture will pop to show the result of faces'detection.
-### 4. The project will run on Linux and use nginx to realize proxy.
+### 4. The project has Linux version and use nginx to realize proxy.
